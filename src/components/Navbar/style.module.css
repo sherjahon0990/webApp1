@@ -1,0 +1,16 @@
+.text {
+  -webkit-user-select: none; /* Safari va Chrome uchun */
+  -moz-user-select: none; /* Firefox uchun */
+  -ms-user-select: none; /* Internet Explorer uchun */
+  user-select: none;
+}
+.NavDriwer {
+  border: 1px solid red;
+  width: 240px;
+}
+@media screen and (max-width: 668px) {
+  .SidBar {
+    display: flex;
+    position: absolute;
+  }
+}
